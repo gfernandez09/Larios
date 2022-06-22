@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario>
+        <nUsuario>Admin</nUsuario>
+        <password>12345</password>
+        <rol>admin</rol>
+    </usuario>
+    <usuario>
+        <nUsuario>Miguel</nUsuario>
+        <password>miguelito22</password>
+        <rol>camarero</rol>
+    </usuario>
+</usuarios>

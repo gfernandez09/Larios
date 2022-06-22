@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carta"
+    android:background="@drawable/fondo"
+    >
+
+    <TextView
+        android:id="@+id/textViewCarta"
+        android:layout_width="86dp"
+        android:layout_height="24dp"
+        android:text="@string/carta"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageButton
+        android:id="@+id/btnEntrante"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:background="@drawable/edit"
+        android:contentDescription="@string/entrantes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147"
+        app:srcCompat="@drawable/egg_bacon_dish_plate_food_icon_207982"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnPrincipales"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:background="@drawable/edit"
+        android:contentDescription="@string/entrantes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145"
+        app:srcCompat="@drawable/restaurant_plate_cutlery_food_icon_210180"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnPostre"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:background="@drawable/edit"
+        android:contentDescription="@string/entrantes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.667"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145"
+        app:srcCompat="@drawable/frappe_cup_glass_coffee_take_away_drink_icon_210189"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnBebidas"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:background="@drawable/edit"
+        android:contentDescription="@string/entrantes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145"
+        app:srcCompat="@drawable/tequila_sunrise_drink_cocktail_glass_icon_210195"
+        tools:ignore="ImageContrastCheck" />
+
+    <ListView
+        android:id="@+id/listViewCarta"
+        android:layout_width="409dp"
+        android:layout_height="562dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPostre"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <SearchView
+        android:id="@+id/searchViewCarta"
+        android:layout_width="409dp"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

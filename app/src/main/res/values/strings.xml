@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Larios</string>
+    <string name="login">Login</string>
+    <string name="modificar_mesas">Modificar mesas</string>
+    <string name="perfil">PERFIL</string>
+    <string name="salir_de_la_app">SALIR DE LA APP</string>
+    <string name="mesas">MESAS</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot the Password?</string>
+    <string name="it_s_a_me_lario_s">It\'s a me Lario\'s</string>
+    <string name="rol">rol</string>
+    <string name="title_activity_mesas">mesas</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="postres">Postres</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="carnes">Carnes</string>
+    <string name="arroces">Arroces</string>
+    <string name="pescado_y_marisco">Pescado y Marisco</string>
+    <string name="entrantes">Entrantes</string>
+    <string name="carta">Carta</string>
+    <string name="scroll_lista_menu">Scroll Lista Menu</string>
+</resources>
