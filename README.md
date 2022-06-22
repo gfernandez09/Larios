@@ -9,3 +9,6 @@ y/o alterar un pedido cambiando los platos que hayan pedido los clientes.
 
 
 ![image](https://user-images.githubusercontent.com/47225340/174985126-8d6bcc5b-1c59-479e-837f-affd4d4a12d1.png)
+
+![image](https://user-images.githubusercontent.com/47225340/174985253-2835812c-0833-4512-94ea-2fa5e83ae840.png)
+
