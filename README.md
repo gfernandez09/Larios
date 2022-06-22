@@ -6,4 +6,6 @@ En la ventana de Administrador, se podrá generar un nuevo camarero en caso de h
 También, el administrador puede reasignar camareros en una mesa diferente, mirar la posición de las mesas que están en el restaurante y 
 más adelante dispondrá de la funcionalidad de editar los pedidos que hayan realizado los camareros, ya sea para cambiar el precio de un pedido, 
 y/o alterar un pedido cambiando los platos que hayan pedido los clientes.
+
+
 ![image](https://user-images.githubusercontent.com/47225340/174985126-8d6bcc5b-1c59-479e-837f-affd4d4a12d1.png)
